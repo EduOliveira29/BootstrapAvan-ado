@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumaria Rosa Branca</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar">
+            <div class="container">
+                <h1>Bem vindo a Perfumaria Rosa Branca</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav id="menu" class="collapse nav-collapse">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <article class="cards">
+                            <header class="card-header">
+                                <h2>Conheça nossas lojas</h2>
+                            </header>
+                            <img class="img-card" src="https://via.placeholder.com/50x50" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Visite nossa loja fisica</h4>
+                                <p class="card-texto">
+                                    Loja fisica em São Paulo, cep:00000-000
+                                </p>
+                                <a href="#" class="btn btn-primary">Veja nossa localização</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="cards">
+                            <header class="card-header">
+                                <h2>Nossa Historia</h2>
+                            </header>
+                            <img class="img-card" src="https://via.placeholder.com/50x50" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Leia sobre nossa historia</h4>
+                                <p class="card-texto">
+                                    Nossa empresa é focada no atentimento ao cliente,proporcionar uma experiencia inigulavel
+                                </p>
+                                <a href="#" class="btn btn-primary">Depoimentos de clientes</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="cards">
+                            <header class="card-header">
+                                <h2>Eventos que patrocimamos</h2>
+                            </header>
+                            <img class="img-card" src="https://via.placeholder.com/50x50" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <p class="card-texto">
+                                    Somos expecialistas em atender eventos e patrocinar modelos
+                                </p>
+                                <a href="#" class="btn btn-info">Lista de colaboradores</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Perfume com aroma de Olinda</h4>
+                        <strong>R$ 100,00</strong>
+                        <p>Um perfume para homens com um desejo mais Rústicos</p>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://images.pexels.com/photos/672051/pexels-photo-672051.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Perfume unissex com aroma de Lavanda</h4>
+                        <strong>R$ 150,00</strong>
+                        <p>Um perfume para homens e mulheres</p>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://images.pexels.com/photos/1557980/pexels-photo-1557980.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Perfume feminino Chamel doce</h4>
+                        <strong>R$ 225,00</strong>
+                        <p>Um perfume para mulheres mais meigas</p>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Kit 4 perfumes masculinos</h4>
+                        <strong>R$ 400,00</strong>
+                        <p>Um kit para homens que precisam de diferentes perfumes para diferentes ocasiões</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lancamentos">
+            <h2>Lançamentos</h2>
+            <div>
+                <img src="https://images.pexels.com/photos/1961792/pexels-photo-1961792.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                <h4>Perfume Rosa do novo mundo</h4>
+                <strong>De  <del> R$ 205,00</del></strong><br>
+                <strong>Por apenas R$ 125,00</strong>
+                <p>Um aroma criado para mulheres que buscam um toque doce e uma sensação de gentileza alinhada a feminilidade</p>
+            </div>
+        </section>
+    </div>
+    
+    <Script src="./lib/bootstrap.bundle.min.js"></Script>
+</body>
+</html>

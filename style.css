@@ -1,0 +1,52 @@
+html {
+    background-color: blueviolet;
+}
+
+header {
+    top: 0;
+    left: 0;
+    background-color:blueviolet;
+}
+
+h1 {
+    color: #fff;
+}
+
+section {
+    background-color: blueviolet;
+    padding-top: 128px;
+    text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+    color: #000;
+}
+
+.nav-link {
+    text-align: center;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    article, section{
+        max-width: 100%;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        display: block;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
